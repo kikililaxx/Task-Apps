@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingRight="35dp"
+    android:background="@drawable/bd2"
+    tools:context="my.android.user.taskapps.MainActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/create"
+        android:src="@drawable/b11"
+        android:background="@null"
+        android:onClick="go_create"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="188dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:src="@drawable/b1"
+        android:onClick="go_view"
+        android:background="@null"
+        android:layout_marginTop="300dp"
+        android:layout_alignBottom="@+id/create"
+        android:layout_alignLeft="@+id/create"
+        android:layout_alignStart="@+id/create" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@null"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/header2" />
+</RelativeLayout>
